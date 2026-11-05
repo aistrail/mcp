@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aistrail/.github/main/profile/aistrail-logo-on-dark.png">
+    <img alt="AIS Trail" src="https://raw.githubusercontent.com/aistrail/.github/main/profile/aistrail-logo-on-light.png" width="260">
+  </picture>
+</p>
+
 # AIS Trail MCP Server
 
 Ship data for AI assistants. The AIS Trail MCP server gives Claude, ChatGPT, Cursor and any other

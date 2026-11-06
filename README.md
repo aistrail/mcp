@@ -80,7 +80,8 @@ All tools are read-only.
 | `data_status` | Live ship count, archive coverage per source and service status | No |
 | `vessel_track` | Where a ship has been between two times | Yes |
 | `vessel_port_calls` | A ship's port calls with draught, cargo estimate and sanctions flags | Yes |
-| `port_calls` | Arrivals and departures at one port | Yes |
+| `port_calls` | Arrivals and departures at one port, with the berth where the port's own records give it | Yes |
+| `expected_arrivals` | Ships expected at one port, from the port's own records (Finnish ports; Pro and Business plans) | Yes |
 | `vessel_events` | Port and anchorage calls, stops, identity and destination changes, AIS gaps and encounters | Yes |
 | `lookup_vessels` | Records of up to 20 ships at once, with the sanctions lists that name them (OFAC SDN, UK, EU) | Yes |
 
@@ -95,6 +96,7 @@ depth, credits and rate limits apply exactly as they do in the API:
 |---|---|
 | `vessel_track` | 1 per vessel-day |
 | `vessel_port_calls`, `port_calls` | 1 per port call returned |
+| `expected_arrivals` | 1 per ship returned |
 | `vessel_events` | 1 per event returned |
 | `lookup_vessels` | 1 per vessel found |
 
